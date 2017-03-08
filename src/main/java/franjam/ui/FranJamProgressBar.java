@@ -10,6 +10,9 @@ import android.widget.ProgressBar;
 import franjam.ui.mvp.ProgressPresenter;
 import franjam.ui.mvp.ProgressView;
 
+/**
+ * Created by fran_aguilera on 3/8/17.
+ */
 public class FranJamProgressBar extends ProgressBar implements ProgressView {
     private ProgressPresenter presenter;
 

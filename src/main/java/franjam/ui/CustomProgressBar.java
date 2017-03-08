@@ -37,5 +37,4 @@ public class CustomProgressBar extends ProgressBar implements CustomProgressView
     public void setMaxLevel(int level) {
         this.setMax(level);
     }
-
 }

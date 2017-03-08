@@ -7,13 +7,13 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.widget.ProgressBar;
 
-import franjam.ui.mvp.CustomProgressPresenter;
-import franjam.ui.mvp.CustomProgressView;
+import franjam.ui.mvp.ProgressPresenter;
+import franjam.ui.mvp.ProgressView;
 
-public class CustomProgressBar extends ProgressBar implements CustomProgressView {
-    private CustomProgressPresenter presenter;
+public class FranJamProgressBar extends ProgressBar implements ProgressView {
+    private ProgressPresenter presenter;
 
-    public CustomProgressBar(Context context, AttributeSet attrs) {
+    public FranJamProgressBar(Context context, AttributeSet attrs) {
         super(context, attrs, 0);
 
         TypedArray typedArray = context.getTheme().obtainStyledAttributes(
@@ -24,7 +24,7 @@ public class CustomProgressBar extends ProgressBar implements CustomProgressView
         LayerDrawable mainLayer = (LayerDrawable) ContextCompat.getDrawable(context,
                 R.drawable.custom_progres_bar_with_images);
 
-        presenter = new CustomProgressPresenter(this);
+        presenter = new ProgressPresenter(this);
         presenter.onCreate(typedArray, mainLayer);
     }
 

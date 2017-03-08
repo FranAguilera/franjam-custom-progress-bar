@@ -19,14 +19,14 @@ import static org.powermock.api.mockito.PowerMockito.spy;
 /**
  * Created by fran_aguilera on 3/8/17.
  */
-public class CustomProgressPresenterTest {
-    private CustomProgressView view;
-    private CustomProgressPresenter spyPresenter;
+public class ProgressPresenterTest {
+    private ProgressView view;
+    private ProgressPresenter spyPresenter;
 
     @Before
     public void setUp() throws Exception {
-        view = mock(CustomProgressView.class);
-        CustomProgressPresenter outPresenter = new CustomProgressPresenter(view);
+        view = mock(ProgressView.class);
+        ProgressPresenter outPresenter = new ProgressPresenter(view);
         spyPresenter = spy(outPresenter);
     }
 

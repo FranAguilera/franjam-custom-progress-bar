@@ -12,16 +12,16 @@ import franjam.ui.R;
 /**
  * Created by fran_aguilera on 3/8/17.
  */
-public class CustomProgressPresenter {
+public class ProgressPresenter {
     private static final int DEFAULT_MAX_LEVEL = 100;
 
-    private CustomProgressView view;
+    private ProgressView view;
     private int maxLevel;
     private LayerDrawable mainLayer;
     private Drawable progressDrawable;
     private Drawable backgroundDrawable;
 
-    public CustomProgressPresenter(CustomProgressView view) {
+    public ProgressPresenter(ProgressView view) {
         this.view = view;
     }
 

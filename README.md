@@ -25,8 +25,8 @@ For ussage, after import:
 
 2) XML attributes:
 
-* maxLevel: Will define the max progress possible value. (Only positive values)
-* backgroundDrawable: Specify drawable for a background image progress
-* progressDrawable: Specify drawable for a main progress (ClipDrawable)
+* maxLevel: Define the max progress possible value. If not specified max will be 100 (Only positive values)
+* backgroundDrawable: Specify drawable (or svg) for a background image progress
+* progressDrawable: Specify drawable (or svg) for a main progress (ClipDrawable)
 
 NOTE: If drawables are not specified in xml it will use default_progress.png and default_background.png

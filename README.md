@@ -13,7 +13,7 @@ For ussage, after import:
 
 ```xml
 
-  <franjam.ui.CustomProgressBar
+  <franjam.ui.FranJamProgressBar
         android:id="@+id/custom_progress_bar"
         android:layout_width="match_parent"
         android:layout_height="50dp"

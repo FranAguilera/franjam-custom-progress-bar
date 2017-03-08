@@ -23,10 +23,10 @@ For ussage, after import:
         app:progressDrawable="@drawable/custom_progress_vector_drawable" />
 ```
 
-2) Attributes:
+2) XML attributes:
 
-* maxLevel--> Will define the max progress possible value. (Only positive values)
-* backgroundDrawable --> Will allow to set any drawable as a background image for the progress bar
-* progressDrawable --> Will allow to customize the looks of your progress bar by adding a simple vector drawable or png image
+* maxLevel: Will define the max progress possible value. (Only positive values)
+* backgroundDrawable: Specify drawable for a background image progress
+* progressDrawable: Specify drawable for a main progress (ClipDrawable)
 
 NOTE: If drawables are not specified in xml it will use default_progress.png and default_background.png

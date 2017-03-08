@@ -30,3 +30,9 @@ For ussage, after import:
 * progressDrawable: Specify drawable (or svg) for a main progress (ClipDrawable)
 
 NOTE: If drawables are not specified in xml it will use default_progress.png and default_background.png
+
+3) Default images demo:
+
+![Default sample 1](/demo_initial.png?raw=true "Demo sample 1")
+
+![Default sample 2](/demo_progress.png?raw=true "Demo sample 2")

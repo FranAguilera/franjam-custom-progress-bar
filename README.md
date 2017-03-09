@@ -33,6 +33,10 @@ NOTE: If drawables are not specified in xml it will use default_progress.png and
 
 3) Default images demo:
 
-![Default sample 1](/demo_initial.png? "Demo sample 1")
+![Default sample 1](/samples/demo_initial.png? "Demo sample 1")
 
-![Default sample 2](/demo_progress.png? "Demo sample 2")
+![Default sample 2](/samples/demo_progress.png? "Demo sample 2")
+
+![Default sample 3](/samples/sample_1.png? "Demo sample 3")
+
+![Default sample 4](/samples/sample_2.png? "Demo sample 4")

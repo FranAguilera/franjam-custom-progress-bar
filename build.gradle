@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
@@ -28,6 +27,7 @@ allprojects {
 }
 
 dependencies {
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -52,7 +52,6 @@ dependencies {
     testCompile 'org.robolectric:shadows-support-v4:3.0'
     testCompile 'junit:junit:4.12'
 
-    compile 'com.github.FranAguilera:franjam-custom-progress-bar:1.0'
     compile 'com.github.jitpack:gradle-simple:1.0'
 }
 
